@@ -30,7 +30,7 @@ local function set_highlights()
 		["@include"] = { link = "Include" },
 		["@interface"] = { fg = palette.foam },
 		["@macro"] = { link = "Macro" },
-		["@method"] = { fg = palette.rose },
+		["@method"] = { fg = palette.rose, bold = styles.bold },
 		["@namespace"] = { link = "Include" },
 		["@number"] = { link = "Number" },
 		["@parameter"] = { fg = palette.iris, italic = styles.italic },
@@ -268,7 +268,7 @@ local function set_highlights()
 		--- Identifiers
 		["@variable"] = { fg = palette.text, italic = styles.italic },
 		["@variable.builtin"] = { fg = palette.love, bold = styles.bold },
-		["@variable.parameter"] = { fg = palette.iris, italic = styles.italic },
+		["@variable.parameter"] = { fg = palette.iris, bold = styles.bold },
 		["@variable.member"] = { fg = palette.foam },
 
 		["@constant"] = { fg = palette.gold },
@@ -311,7 +311,7 @@ local function set_highlights()
 		-- ["@function.call"] = {},
 		["@function.macro"] = { link = "Function" },
 		["@function.method"] = { fg = palette.rose },
-		["@function.method.call"] = { fg = palette.iris },
+		["@function.method.call"] = { fg = palette.iris, bold = styles.bold },
 
 		["@constructor"] = { fg = palette.foam },
 		["@operator"] = { link = "Operator" },
