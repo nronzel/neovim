@@ -188,7 +188,7 @@ local function set_highlights()
 		Error = { fg = palette.love },
 		Exception = { fg = palette.pine },
 		Float = { fg = palette.gold },
-		Function = { fg = palette.rose },
+		Function = { fg = palette.rose, bold = styles.bold },
 		Identifier = { fg = palette.text },
 		Include = { fg = palette.pine },
 		Keyword = { fg = palette.pine },
