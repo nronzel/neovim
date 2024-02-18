@@ -268,7 +268,7 @@ local function set_highlights()
 		--- Identifiers
 		["@variable"] = { fg = palette.text, italic = styles.italic },
 		["@variable.builtin"] = { fg = palette.love, bold = styles.bold },
-		["@variable.parameter"] = { fg = palette.iris, bold = styles.bold },
+		["@variable.parameter"] = { fg = palette.iris },
 		["@variable.member"] = { fg = palette.foam },
 
 		["@constant"] = { fg = palette.gold },
