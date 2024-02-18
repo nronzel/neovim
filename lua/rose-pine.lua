@@ -311,7 +311,7 @@ local function set_highlights()
 		-- ["@function.call"] = {},
 		["@function.macro"] = { link = "Function" },
 		["@function.method"] = { fg = palette.rose },
-		["@function.method.call"] = { fg = palette.love },
+		["@function.method.call"] = { fg = palette.iris },
 
 		["@constructor"] = { fg = palette.foam },
 		["@operator"] = { link = "Operator" },
