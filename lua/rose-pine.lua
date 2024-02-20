@@ -303,7 +303,7 @@ local function set_highlights()
 		-- ["@type.qualifier"] = {},
 
 		-- ["@attribute"] = {},
-		["@property"] = { fg = palette.foam, bold = styles.bold },
+		["@property"] = { fg = palette.foam },
 
 		--- Functions
 		["@function"] = { fg = palette.rose },
